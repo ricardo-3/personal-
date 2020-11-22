@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .navbar-brand{
     letter-spacing: 4px;
     font-size: 27px;
@@ -43,7 +44,7 @@ main{
 main h1{
   text-align: center;
   margin-top: 15%;
-  font-size: 50px;
+  font-size: 80px;
   font-family: 'Martel', serif;
   font-family: 'Shadows Into Light', cursive;
   letter-spacing: 3px;
@@ -96,10 +97,10 @@ footer{
 
 
 .home{    
-  width: 87%;
+  width: 80%;
   height: 42px;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;  
   justify-content: space-around;
   align-items: center;
@@ -138,7 +139,7 @@ section{
 
 .items{
   width: 350px;
-  height: 32F0px;
+  height: 280px;
   background-color: #fff;
   margin: 10px 0;
   border-radius: 7px;
@@ -180,6 +181,23 @@ section{
   }
   
 
+
+
+}
+
+
+@media (max-width: 770px) {
+
+main h1{
+  text-align: center;
+  margin-top: 25%;
+  font-size: 55px;
+  font-family: 'Martel', serif;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+ 
+}
 
 }
 
