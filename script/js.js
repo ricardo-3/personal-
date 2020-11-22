@@ -5,3 +5,6 @@ document.querySelector("icono")
         behavior:"smooth"
     });
 });
+
+
+
